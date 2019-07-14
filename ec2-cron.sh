@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Script
+# Script to set cron job task for only one EC2 instance in Auto Scaling Group
+
+# Configure your bucket name and cron file name which needs to be fetched from S3 bucket and put on the server's crontab
 bucketName="your-s3-bucket-name"
 cronFile="cron.sh"
 
